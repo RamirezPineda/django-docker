@@ -1,0 +1,11 @@
+
+services:
+    app:
+      container_name: activos-bi
+      restart: always
+      image: activos-bi
+      build:
+        context: ./
+        dockerfile: Dockerfile
+      ports:
+        - 8000:8000
