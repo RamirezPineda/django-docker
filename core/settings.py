@@ -25,6 +25,11 @@ SECRET_KEY = 'django-insecure-prv9pwgiwg!!^pi$rp6y&!_oik0g3#u5z$@b!=k+2qbf73+f_l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# DEPLOY 
+# Public IPv4 address of aws, google cloud, etc.
+# ALLOWED_HOSTS = ['YOUR_IP_VPS']
+
+# DEVELOPMENT
 ALLOWED_HOSTS = []
 
 
